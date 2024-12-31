@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+
+<head>
+  <!-- Declaração do tipo de documento HTML5 -->
+  <meta charset="UTF-8"> <!-- Define a codificação de caracteres como UTF-8 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Responsividade em dispositivos móveis -->
+
+  <!-- Meta tags para SEO -->
+  <meta name="description" content="Descrição do conteúdo da página para atrair usuários e melhorar SEO.">
+  <!-- Breve descrição da página -->
+  <meta name="keywords" content="palavra-chave1, palavra-chave2, palavra-chave3"> <!-- Palavras-chave para indexação -->
+  <meta name="author" content="Seu Nome ou Nome da Empresa">
+  <!-- Nome do autor ou da organização responsável pelo site -->
+
+  <!-- Meta tags para compartilhamento em redes sociais (Open Graph e Twitter) -->
+  <meta property="og:title" content="Título da Página"> <!-- Título para redes sociais -->
+  <meta property="og:description" content="Descrição curta da página para redes sociais.">
+  <!-- Descrição para redes sociais -->
+  <meta property="og:image" content="URL_da_imagem_para_OG.jpg"> <!-- URL da imagem que será exibida ao compartilhar -->
+  <meta property="og:url" content="https://seusite.com"> <!-- URL da página para compartilhamento -->
+  <meta name="twitter:card" content="summary_large_image"> <!-- Formato do card para o Twitter -->
+
+  <!-- Definição do link canônico para evitar conteúdo duplicado -->
+  <link rel="canonical" href="https://seusite.com">
+
+
+
+
+
+
+  <title>DevCode</title>
+
+  <!-- Arquivos CSS adicionais -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/main.css" />
+</head>
+
+<body>
+
+  <!-- ***** Pré-carregador Início ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Pré-carregador Fim ***** -->
+
+  <!-- ***** Área do Cabeçalho Início ***** -->
+  <header class="header-area header-sticky">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="main-nav">
+            <!-- ***** Logo Início ***** 
+            <a href="index.html" class="logo">
+              <img src="assets/images/logo-fet.png">
+            </a>
+              ***** Logo Fim ***** -->
+            <!-- ***** Pesquisa Início ***** -->
+            <div class="search-input">
+              <form id="search" action="#">
+                <input type="text" placeholder="Pesquisar" id='searchText' name="searchKeyword" onkeypress="handle" />
+                <i class="fa fa-search"></i>
+              </form>
+            </div>
+            <!-- ***** Pesquisa Fim ***** -->
+            <!-- ***** Menu Início ***** -->
+            <ul class="nav" id="butoes">
+              <li class="scroll-to-section"><a href="index.html" class="active">Home</a></li>
+              <li class="scroll-to-section" id="cadastrar"><a href="#!" active>Cadastrar</a></li>
+            </ul>
+            <a class='menu-trigger'>
+              <span>Menu</span>
+            </a>
+            <!-- ***** Menu Fim ***** -->
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ***** Área do Cabeçalho Fim ***** -->
+  <div class="main-banner" id="top">
+    <div class="container">
+      <div class="row" id="login-form">
+        <div class="col-lg-6">
+          <div class="login-form">
+            <form id="contact-form" action="" method="post">
+              <div class="login col-lg-12">
+                <h2>Login</h2>
+              </div>
+              <div class="col-lg-12">
+                <fieldset>
+                  <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Seu E-mail..."
+                    required>
+                </fieldset>
+              </div>
+              <div class="col-lg-12">
+                <fieldset>
+                  <input type="password" name="senha" id="senha" placeholder="Sua Senha" autocomplete="on" required>
+                </fieldset>
+              </div>
+              <div class="col-lg-12">
+                <fieldset>
+                  <button type="submit" id="form-submit" class="orange-button"><i class="zmdi zmdi-sign-in"></i>
+                    Login</button>
+                  <button type="button" id="clear-form" class="btn btn-warning">Cancelar</button>
+                </fieldset>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="login-text">
+            <div class="col-lg-12">
+              <h2>DeveCode</h2>
+            </div>
+            <div class="col-lg-12">
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis aliquid, magni harum iste, vel
+                accusamus eum porro, assumenda atque omnis quidem reiciendis at odio alias illum esse vero architecto
+                laudantium.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <footer class="rodape">
+    <div class="container">
+      <div class="col-lg-12">
+        <p>Copyright © 2024 <strong style="color: #f8934A;">DevCode</strong> All Rights Reserved</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+  <script src="./vendor/jquery/jquery.min.js"></script>
+  <script src="./vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="./assets/js/isotope.min.js"></script>
+  <script src="./assets/js/owl-carousel.js"></script>
+  <script src="./assets/js/counter.js"></script>
+  <script src="./assets/js/custom.js"></script>
+  <script src="./assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="./assets/js/material.min.js"></script>
+  <script>
+    $.material.init();
+  </script>
+
+</body>
+
+</html>

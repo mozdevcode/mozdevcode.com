@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+
+<head>
+  <!-- Declaração do tipo de documento HTML5 -->
+  <meta charset="UTF-8"> <!-- Define a codificação de caracteres como UTF-8 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Responsividade em dispositivos móveis -->
+
+  <!-- Meta tags para SEO -->
+  <meta name="description" content="Descrição do conteúdo da página para atrair usuários e melhorar SEO.">
+  <!-- Breve descrição da página -->
+  <meta name="keywords" content="palavra-chave1, palavra-chave2, palavra-chave3"> <!-- Palavras-chave para indexação -->
+  <meta name="author" content="Seu Nome ou Nome da Empresa">
+  <!-- Nome do autor ou da organização responsável pelo site -->
+
+  <!-- Meta tags para compartilhamento em redes sociais (Open Graph e Twitter) -->
+  <meta property="og:title" content="Título da Página"> <!-- Título para redes sociais -->
+  <meta property="og:description" content="Descrição curta da página para redes sociais.">
+  <!-- Descrição para redes sociais -->
+  <meta property="og:image" content="URL_da_imagem_para_OG.jpg"> <!-- URL da imagem que será exibida ao compartilhar -->
+  <meta property="og:url" content="https://seusite.com"> <!-- URL da página para compartilhamento -->
+  <meta name="twitter:card" content="summary_large_image"> <!-- Formato do card para o Twitter -->
+
+  <!-- Definição do link canônico para evitar conteúdo duplicado -->
+  <link rel="canonical" href="https://seusite.com">
+
+
+
+
+
+
+  <title>DevCode</title>
+
+  <!-- Arquivos CSS adicionais -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/main.css" />
+</head>
+
+<body>
+  <!-- ***** Pré-carregador Início ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Pré-carregador Fim ***** -->
+
+  <!-- ***** Área do Cabeçalho Início ***** -->
+  <header class="header-area header-sticky">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="main-nav">
+            <!-- ***** Logo Início ***** 
+            <a href="index.html" class="logo">
+              <img src="assets/images/logo-fet.png">
+            </a>
+              ***** Logo Fim ***** -->
+            <!-- ***** Pesquisa Início ***** -->
+            <div class="search-input">
+              <form id="search" action="#">
+                <input type="text" placeholder="Pesquisar" id='searchText' name="searchKeyword" onkeypress="handle" />
+                <i class="fa fa-search"></i>
+              </form>
+            </div>
+            <!-- ***** Pesquisa Fim ***** -->
+            <!-- ***** Menu Início ***** -->
+            <ul class="nav">
+              <li class="scroll-to-section"><a href="#top" class="active">Sobre</a></li>
+              <li class="scroll-to-section"><a href="#services">Servi&ccedil;os</a></li>
+              <li class="scroll-to-section"><a href="#courses">Eventos</a></li>
+              <li class="scroll-to-section"><a href="#team">Direc&ccedil;&atilde;o</a></li>
+              <li class="scroll-to-section"><a href="#contact">Contacto</a></li>
+            </ul>
+            <a class='menu-trigger'>
+              <span>Menu</span>
+            </a>
+            <!-- ***** Menu Fim ***** -->
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="body">
+    <!-- ***** Área do Cabeçalho Fim ***** -->
+    <div class="main-banner" id="top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="owl-carousel owl-banner">
+              <div class="item item-1">
+                <div class="header-text">
+                  <span class="category">tag</span>
+                  <h2>Titulo</h2>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat corrupti impedit nihil. Maiores
+                    iste at provident beatae libero alias rem, laboriosam possimus vero. Qui obcaecati corrupti adipisci
+                    ex modi unde?</p>
+                </div>
+              </div>
+              <div class="item item-2">
+                <div class="header-text">
+                  <span class="category">tag</span>
+                  <h2>Titulo</h2>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat corrupti impedit nihil. Maiores
+                    iste at provident beatae libero alias rem, laboriosam possimus vero. Qui obcaecati corrupti adipisci
+                    ex modi unde?</p>
+                </div>
+              </div>
+              <div class="item item-3">
+                <div class="header-text">
+                  <span class="category">tag</span>
+                  <h2>Titulo</h2>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat corrupti impedit nihil. Maiores
+                    iste at provident beatae libero alias rem, laboriosam possimus vero. Qui obcaecati corrupti adipisci
+                    ex modi unde?</p>
+                </div>
+              </div>
+              <div class="item item-4">
+                <div class="header-text">
+                  <span class="category">tag</span>
+                  <h2>Titulo</h2>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat corrupti impedit nihil. Maiores
+                    iste at provident beatae libero alias rem, laboriosam possimus vero. Qui obcaecati corrupti adipisci
+                    ex modi unde?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="services section" id="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <div class="section-heading">
+              <h2>Serviços</h2>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="service-item">
+              <div class="icon">
+                <i class="zmdi zmdi-laptop zmdi-hc-5x"></i>
+              </div>
+              <div class="main-content">
+                <h4>Titulo</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat vero, unde ipsa iste ex tempore
+                  quas
+                  voluptatem officiis ab, ad quisquam debitis. Voluptatibus quo ad dolorem, modi eum veritatis
+                  aspernatur!
+                </p>
+                <div class="main-button">
+                  <a href="#!" target="_blank">Saiba mais</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="service-item">
+              <div class="icon">
+                <img src="assets/images/service-02.png" alt="">
+              </div>
+              <div class="main-content">
+                <h4>Titulo</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat vero, unde ipsa iste ex tempore
+                  quas
+                  voluptatem officiis ab, ad quisquam debitis. Voluptatibus quo ad dolorem, modi eum veritatis
+                  aspernatur!
+                </p>
+                <div class="main-button">
+                  <a href="#!" target="_blank">Saiba mais</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="service-item">
+              <div class="icon">
+                <img src="assets/images/service-03.png" alt="">
+              </div>
+              <div class="main-content">
+                <h4>Titulo</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat vero, unde ipsa iste ex tempore
+                  quas
+                  voluptatem officiis ab, ad quisquam debitis. Voluptatibus quo ad dolorem, modi eum veritatis
+                  aspernatur!
+                </p>
+                <div class="main-button">
+                  <a href="#!" target="_blank">Saiba mais</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section about-us">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 offset-lg-1">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                    aria-expanded="true" aria-controls controlsList="nodownload"="collapseOne">
+                    Sobre DevCode
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit dignissimos temporibus hic optio
+                    mollitia nobis, exercitationem earum consequuntur eum voluptatibus! Magnam accusamus voluptatum,
+                    aliquid animi velit expedita explicabo totam laudantium.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls
+                    controlsList="nodownload"="collapseTwo">
+                    Natureza
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus ducimus, quas eius tenetur
+                    quibusdam molestias maiores. Suscipit repudiandae illum illo eius! Fugiat quasi dolores modi
+                    repellat
+                    iste repellendus voluptatibus ullam!ar.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 align-self-center">
+            <div class="section-heading">
+              <h6>Seja</h6>
+              <h2>Bem vindo</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus reprehenderit omnis impedit sed
+                neque nemo facilis quos cum incidunt, consequatur, earum aut, ipsam officiis laboriosam obcaecati
+                cumque.
+                Amet, dolores consequuntur!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="section courses" id="courses">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <div class="section-heading">
+              <h2>Eventos</h2>
+            </div>
+          </div>
+        </div>
+        <ul class="event_filter">
+          <li>
+            <a class="is_active" href="#!" data-filter="*">Design</a>
+          </li>
+          <li>
+            <a href="#!" data-filter=".item1">Cybersecurity</a>
+          </li>
+          <li>
+            <a href="#!" data-filter=".item2">Development</a>
+          </li>
+        </ul>
+        <div class="row event_box">
+          <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 wordpress item1">
+            <div class="events_item">
+              <div class="thumb">
+                <video width="420" height="220" controls controlsList="nodownload">
+                  <source src="assets/Videos/Commando Temple 3D Logo Animation.mp4" type="video/mp4">
+                </video>
+
+              </div>
+              <div class="down-content">
+                <span class="author">Video Hospedado no sevidor do site</span>
+                <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae numquam error minus, sunt
+                  incidunt
+                  soluta. Placeat veritatis excepturi alias quae dicta architecto officia animi voluptate molestias quos
+                  illum, tenetur veniam.</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 wordpress item1">
+            <div class="events_item">
+              <div class="thumb">
+                <iframe width="420" height="220" src="https://www.youtube.com/embed/H1kiuR_Vams"
+                  title="Gold Particles Bokeh Glitter Awards dust abstract background loop" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+              </div>
+              <div class="down-content">
+                <span class="author">Video Hospedado no sevidor do youtube</span>
+                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, optio aperiam, nam delectus
+                  ullam
+                  maxime, facilis quisquam reiciendis sapiente voluptatum rem fuga ratione. Ullam commodi quaerat earum
+                  ducimus, accusantium quam.</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 item2">
+            <div class="events_item">
+              <div class="thumb">
+                <video width="420" height="220" controls controlsList="nodownload">
+                  <source src="assets/Videos/Commando Temple 3D Logo Animation.mp4" type="video/mp4">
+                </video>
+
+              </div>
+              <div class="down-content">
+                <span class="author">Reservado para o autor</span>
+                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quaerat nostrum tenetur doloremque
+                  voluptates! Tempore ipsa facere mollitia, sit cupiditate ea dignissimos illo iste at dolores
+                  exercitationem earum rerum molestias.</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="section fun-facts">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="wrapper">
+              <div class="row">
+                <div class="col-lg-3 col-md-6">
+                  <div class="counter">
+                    <h2 class="timer count-title count-number" data-to="3" data-speed="1000"></h2>
+                    <p class="count-text ">Titulo</p>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                  <div class="counter">
+                    <h2 class="timer count-title count-number" data-to="8" data-speed="1000"></h2>
+                    <p class="count-text ">Titulo</p>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                  <div class="counter">
+                    <h2 class="timer count-title count-number" data-to="14894" data-speed="1000"></h2>
+                    <p class="count-text ">Titulo</p>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                  <div class="counter end">
+                    <h2 class="timer count-title count-number" data-to="597" data-speed="1000"></h2>
+                    <p class="count-text ">Membros da Comunidade</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="team section" id="team">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="team-member">
+              <div class="main-content">
+                <img src="assets/images/member-04.jpg" alt="">
+                <span class="category">Presidente</span>
+                <h4></h4>
+                <ul class="social-icons">
+                  <li><a href="#"><i class="zmdi zmdi-facebook"></i></a></li>
+                  <li><a href="#"><i class="zmdi zmdi-twitter"></i></a></li>
+                  <li><a href="#"><i class="zmdi zmdi-linkedin"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="team-member">
+              <div class="main-content">
+                <img src="assets/images/member-02.jpg" alt="">
+                <span class="category">Vice-Presidente</span>
+                <h4></h4>
+                <ul class="social-icons">
+                  <li><a href="#"><i class="zmdi zmdi-facebook"></i></a></li>
+                  <li><a href="#"><i class="zmdi zmdi-twitter"></i></a></li>
+                  <li><a href="#"><i class="zmdi zmdi-linkedin"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="team-member">
+              <div class="main-content">
+                <img src="assets/images/member-03.jpg" alt="">
+                <span class="category">Gestor de Comunidades</span>
+                <h4></h4>
+                <ul class="social-icons">
+                  <li><a href="#"><i class="zmdi zmdi-facebook"></i></a></li>
+                  <li><a href="#"><i class="zmdi zmdi-twitter"></i></a></li>
+                  <li><a href="#"><i class="zmdi zmdi-linkedin"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="team-member">
+              <div class="main-content">
+                <img src="assets/images/member-gen.jpg" alt="">
+                <span class="category">IT/Developer</span>
+                <h4></h4>
+                <ul class="social-icons">
+                  <li><a href="#"><i class="zmdi zmdi-facebook"></i></a></li>
+                  <li><a href="#"><i class="zmdi zmdi-twitter"></i></a></li>
+                  <li><a href="#"><i class="zmdi zmdi-linkedin"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-us section" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6  align-self-center">
+            <div class="section-heading">
+              <h6>Contacte-nos</h6>
+              <p><strong><i class="zmdi zmdi-pin-drop"></i> Endere&ccedil;o: </strong>++++++++</p>
+              <p><strong><i class="zmdi zmdi-phone"></i> Telemovel: </strong>(+258) 8* ** ** ***</p>
+              <p><strong><i class="zmdi zmdi-email"></i> E-mail: </strong>email@email.com</p>
+
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="contact-us-content">
+              <form id="contact-form" action="" method="post">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <fieldset>
+                      <input type="text" name="name" id="name" placeholder="Seu Nome..." autocomplete="on" required>
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-12">
+                    <fieldset>
+                      <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Seu E-mail..."
+                        required>
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-12">
+                    <fieldset>
+                      <textarea name="message" id="message" placeholder="Sua Mensagem..."></textarea>
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-12">
+                    <fieldset>
+                      <button type="submit" id="form-submit" class="orange-button"><i class="zmdi zmdi-mail-send"></i>
+                        Enviar</button>
+                      <button type="button" id="clear-form" class="btn btn-warning">Limpar</button>
+                    </fieldset>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="col-lg-12">
+        <p>Copyright © 2024 <strong style="color: #f8934A;">DevCode</strong> All Rights Reserved</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+  <script src="./vendor/jquery/jquery.min.js"></script>
+  <script src="./vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="./assets/js/isotope.min.js"></script>
+  <script src="./assets/js/owl-carousel.js"></script>
+  <script src="./assets/js/counter.js"></script>
+  <script src="./assets/js/custom.js"></script>
+  <script src="./assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="./assets/js/material.min.js"></script>
+  <script>
+    $.material.init();
+  </script>
+
+</body>
+
+</html>
