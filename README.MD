@@ -29,14 +29,6 @@ DevCode é uma comunidade dedicada a desenvolvedores de todos os níveis, desde 
 4. Envie para o branch original: `git push origin minha-nova-funcionalidade`
 5. Crie um pull request.
 
-### Licença
-
-Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
-### Contato
-
-Para mais informações, visite nosso [site oficial](https://www.devcode.com) ou entre em contato pelo e-mail: contato@devcode.com.
-
 ---
 
 Obrigado por visitar o repositório DevCode! Esperamos que você aproveite e contribua para nossa comunidade.
