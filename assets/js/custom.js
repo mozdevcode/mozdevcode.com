@@ -1,6 +1,35 @@
 (function ($) {
     "use strict";
 
+    $('.cadastrar-btn').on('click', function (event) {
+        event.preventDefault(); // Evita o envio real do formulário         
+        alert('Cadastro realizado com sucesso!');
+    });
+
+
+    $('#cadastrar').on('click', function (event) {
+        event.preventDefault(); // Evita o envio real do formulário         
+
+        if (document.getElementById('cadastrar')) {
+            document.getElementById('cadastrar').remove(); // Remove o nav cadastro
+
+            // Adiciona novos botões
+            let login = document.createElement('li');
+            login.className = 'scroll-to-section';
+            login.id = 'login';
+
+            let loginLink = document.createElement('a');
+            loginLink.href = 'login.html';
+            loginLink.textContent = 'Entrar';
+
+            login.appendChild(loginLink);
+            document.getElementById('navbar').appendChild(login);
+
+            $('#signup-tab').removeClass('hidden');
+            $('#login-form').addClass('hidden');
+        }
+    });
+
     // Função para iniciar o carregamento da página
     function initPageLoader() {
         $(window).on('load', function () {

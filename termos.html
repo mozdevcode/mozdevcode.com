@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+
+<head>
+    <!-- Declaração do tipo de documento HTML5 -->
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Responsividade em dispositivos móveis -->
+
+    <!-- Meta tags para SEO -->
+    <meta name="description" content="Descrição do conteúdo da página para atrair usuários e melhorar SEO.">
+    <!-- Breve descrição da página -->
+    <meta name="keywords" content="palavra-chave1, palavra-chave2, palavra-chave3">
+    <!-- Palavras-chave para indexação -->
+    <meta name="author" content="Seu Nome ou Nome da Empresa">
+    <!-- Nome do autor ou da organização responsável pelo site -->
+
+    <!-- Meta tags para compartilhamento em redes sociais (Open Graph e Twitter) -->
+    <meta property="og:title" content="Título da Página"> <!-- Título para redes sociais -->
+    <meta property="og:description" content="Descrição curta da página para redes sociais.">
+    <!-- Descrição para redes sociais -->
+    <meta property="og:image" content="URL_da_imagem_para_OG.jpg">
+    <!-- URL da imagem que será exibida ao compartilhar -->
+    <meta property="og:url" content="https://seusite.com"> <!-- URL da página para compartilhamento -->
+    <meta name="twitter:card" content="summary_large_image"> <!-- Formato do card para o Twitter -->
+
+    <!-- Definição do link canônico para evitar conteúdo duplicado -->
+    <link rel="canonical" href="https://seusite.com">
+
+
+
+
+
+
+    <title>DevCode</title>
+
+    <!-- Arquivos CSS adicionais -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+
+<body>
+    <!-- ***** Pré-carregador Início ***** -->
+    <div id="js-preloader" class="js-preloader">
+        <div class="preloader-inner">
+            <span class="dot"></span>
+            <div class="dots">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <!-- ***** Pré-carregador Fim ***** -->
+
+    <!-- ***** Área do Cabeçalho Início ***** -->
+    <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- ***** Logo Início ***** 
+            <a href="index.html" class="logo">
+              <img src="assets/images/logo-fet.png">
+            </a>
+              ***** Logo Fim ***** -->
+                        <!-- ***** Pesquisa Início ***** -->
+                        <div class="search-input">
+                            <form id="search" action="#">
+                                <input type="text" placeholder="Pesquisar" id='searchText' name="searchKeyword"
+                                    onkeypress="handle" />
+                                <i class="fa fa-search"></i>
+                            </form>
+                        </div>
+                        <!-- ***** Pesquisa Fim ***** -->
+                        <!-- ***** Menu Início ***** -->
+                        <ul class="nav">
+                            <li class="scroll-to-section"><a href="index.html" class="active">Home</a></li>
+                            <li class="scroll-to-section"><a href="login.html">Login</a></li>
+                        </ul>
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                        <!-- ***** Menu Fim ***** -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="body">
+        <!-- ***** Área do Cabeçalho Fim ***** -->
+        <div class="main-banner" id="top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1 class="cabecalho-accordion">Termos e condições da Comunidade<strong> DevCode</strong> </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section condicoes">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 align-self-center">
+                        <div class="section-heading">
+                            <h6>Seja</h6>
+                            <h2>Bem-vindo</h2>
+                            <p>Antes de continuar, pedimos que leia e concorde com nossos Termos e Condições. Eles foram
+                                elaborados para garantir um ambiente seguro, colaborativo e produtivo para todos os
+                                membros da comunidade.</p>
+                            <p>Clique em cada seção abaixo para conhecer todos os detalhes.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 offset-lg-1">
+                        <div class="accordion" id="termos&condicoes">
+                            <!-- Aceitação dos Termos -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        1. Aceitação dos Termos
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-item collapse show" aria-labelledby="headingOne"
+                                    data-bs-parent="#termos&condicoes">
+                                    <div class="accordion-body">
+                                        Ao acessar e utilizar os serviços oferecidos pela comunidade <b>DevCode</b>,
+                                        você concorda em cumprir e estar sujeito aos presentes Termos e Condições. Caso
+                                        não concorde com quaisquer termos, não utilize nossos serviços.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Objetivo da Comunidade -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        2. Objetivo da Comunidade
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-item collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#termos&condicoes">
+                                    <div class="accordion-body">
+                                        A <b>DevCode</b> é uma plataforma voltada para hackers éticos, desenvolvedores
+                                        de software e entusiastas de tecnologia com o objetivo de compartilhar
+                                        conhecimento, promover discussões construtivas e incentivar a colaboração em
+                                        projetos relacionados a cibersegurança e desenvolvimento de software.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Regras de Conduta -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        3. Regras de Conduta
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-item collapse" aria-labelledby="headingThree"
+                                    data-bs-parent="#termos&condicoes">
+                                    <div class="accordion-body">
+                                        Os usuários da comunidade devem:
+                                        <ul>
+                                            <li>Respeitar outros membros, independentemente de origem, gênero, crenças
+                                                ou opiniões.</li>
+                                            <li>Compartilhar conteúdo relevante e construtivo.</li>
+                                            <li>Evitar práticas de hacking não éticas ou ilegais dentro e fora da
+                                                comunidade.</li>
+                                            <li>Não utilizar a comunidade para promover spam, discurso de ódio, ou
+                                                atividades maliciosas.</li>
+                                            <li>Respeitar as leis aplicáveis de cibersegurança e propriedade
+                                                intelectual.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Responsabilidades do Usuário -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFour" aria-expanded="false"
+                                        aria-controls="collapseFour">
+                                        4. Responsabilidades do Usuário
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-item collapse" aria-labelledby="headingFour"
+                                    data-bs-parent="#termos&condicoes">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li>Os usuários são responsáveis pelo conteúdo que publicam na plataforma.
+                                            </li>
+                                            <li>É proibido compartilhar informações confidenciais, privadas ou
+                                                protegidas por leis de propriedade intelectual sem a devida permissão.
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Privacidade -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFive">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFive" aria-expanded="false"
+                                        aria-controls="collapseFive">
+                                        5. Privacidade
+                                    </button>
+                                </h2>
+                                <div id="collapseFive" class="accordion-item collapse" aria-labelledby="headingFive"
+                                    data-bs-parent="#termos&condicoes">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li>Os dados coletados serão utilizados apenas para fins de operação da
+                                                comunidade e melhoria dos serviços.</li>
+                                            <li>A <b>DevCode</b> compromete-se a proteger as informações pessoais dos
+                                                usuários, em conformidade com as legislações aplicáveis.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Direitos da DevCode -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingSix">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                        6. Direitos da DevCode
+                                    </button>
+                                </h2>
+                                <div id="collapseSix" class="accordion-item collapse" aria-labelledby="headingSix"
+                                    data-bs-parent="#termos&condicoes">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li>A <b>DevCode</b> reserva-se o direito de moderar, editar ou remover
+                                                conteúdo que viole estes Termos.</li>
+                                            <li>Pode haver suspensão ou exclusão de usuários que descumpram as regras.
+                                            </li>
+                                            <li>A plataforma pode ser atualizada ou modificada a qualquer momento sem
+                                                aviso prévio.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Limitação de Responsabilidade -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingSeven">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseSeven" aria-expanded="false"
+                                        aria-controls="collapseSeven">
+                                        7. Limitação de Responsabilidade
+                                    </button>
+                                </h2>
+                                <div id="collapseSeven" class="accordion-item collapse" aria-labelledby="headingSeven"
+                                    data-bs-parent="#termos&condicoes">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li>A <b>DevCode</b> não se responsabiliza por danos diretos, indiretos ou
+                                                consequentes resultantes do uso da comunidade.</li>
+                                            <li>O conteúdo publicado pelos usuários é de inteira responsabilidade dos
+                                                mesmos.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Propriedade Intelectual -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingEight">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseEight" aria-expanded="false"
+                                        aria-controls="collapseEight">
+                                        8. Propriedade Intelectual
+                                    </button>
+                                </h2>
+                                <div id="collapseEight" class="accordion-item collapse" aria-labelledby="headingEight"
+                                    data-bs-parent="#termos&condicoes">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li>Todo o conteúdo original da <b>DevCode</b> é protegido por direitos
+                                                autorais.</li>
+                                            <li>Os usuários mantêm os direitos sobre o conteúdo que publicam, mas
+                                                concedem à <b>DevCode</b> uma licença não exclusiva para uso dentro da
+                                                plataforma.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Resolução de Conflitos -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingNine">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseNine" aria-expanded="false"
+                                        aria-controls="collapseNine">
+                                        9. Resolução de Conflitos
+                                    </button>
+                                </h2>
+                                <div id="collapseNine" class="accordion-item collapse" aria-labelledby="headingNine"
+                                    data-bs-parent="#termos&condicoes">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li>Questões não previstas nestes Termos serão resolvidas pela equipe da
+                                                <b>DevCode</b>.
+                                            </li>
+                                            <li>Eventuais conflitos serão tratados com base nas leis aplicáveis de
+                                                Moçambique.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Disposições Gerais -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTen">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                                        10. Disposições Gerais
+                                    </button>
+                                </h2>
+                                <div id="collapseTen" class="accordion-item collapse" aria-labelledby="headingTen"
+                                    data-bs-parent="#termos&condicoes">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li>Estes Termos serão regidos pelas leis aplicáveis de Moçambique.</li>
+                                            <li>Ao continuar utilizando a comunidade <b>DevCode</b>, você confirma que
+                                                leu, entendeu e concorda com estes Termos e Condições.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="col-lg-12">
+                <p>Copyright © 2024 <strong style="color: #f8934A;">DevCode</strong> All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="./vendor/jquery/jquery.min.js"></script>
+    <script src="./vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./assets/js/isotope.min.js"></script>
+    <script src="./assets/js/owl-carousel.js"></script>
+    <script src="./assets/js/counter.js"></script>
+    <script src="./assets/js/custom.js"></script>
+    <script src="./assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="./assets/js/material.min.js"></script>
+    <script>
+        $.material.init();
+    </script>
+
+</body>
+
+</html>

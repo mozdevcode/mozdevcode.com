@@ -224,6 +224,7 @@ body {
   text-transform: uppercase;
   font-weight: 600;
 }
+
 .main-button a {
   display: inline-block;
   background-color: #fff;
@@ -793,6 +794,113 @@ Login Style
 
 /* 
 ---------------------------------------------
+Sign up Style
+--------------------------------------------- 
+*/
+.signup-form input {
+  width: 100%;
+  height: 50px;
+  border-radius: 25px;
+  background-color: rgba(249, 235, 255, 0.15);
+  border: none;
+  outline: none;
+  font-weight: 300;
+  padding: 0px 20px;
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 30px;
+  position: relative;
+  z-index: 3;
+}
+
+.form-control:focus{
+  color: #fff;
+  background-color: #23323C;
+  opacity: 0.5;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-color: #fff;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.signup-form input::placeholder {
+  color: #fff;
+
+}
+
+strong, b{
+  color: #F8934A;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  position: relative;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+
+fieldset input[type="checkbox"] {
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+  accent-color: #F8934A; /* Customiza a cor do checkbox */
+}
+
+fieldset a {
+  color: #00B4FE;
+  text-decoration: none;
+}
+
+fieldset a:hover {
+color: #F8934A;
+}
+
+fieldset label {
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+.login-form button {
+  width: 100%;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #F8934A;
+  border: none;
+  outline: none;
+  font-weight: 300;
+  padding: 0px 20px;
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+
+.signup-form button {
+  width: 100%;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #F8934A;
+  border: none;
+  outline: none;
+  font-weight: 300;
+  padding: 0px 20px;
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+iframe {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  aspect-ratio: 16 / 9; /* Mantém a proporção de 16:9 */
+  border: none; /* Remove a borda do iframe */
+}
+
+/* 
+---------------------------------------------
 Banner Style
 --------------------------------------------- 
 */
@@ -994,6 +1102,107 @@ Services Style
 .services .service-item p {
   color: #4a4a4a;
   margin-bottom: 25px;
+}
+
+/*
+---------------------------------------------
+accordion e Condicoes
+--------------------------------------------- 
+*/
+
+.condicoes {
+  text-align: justify;
+  position: relative;
+  padding: 0px;
+  margin-top: 130px;
+}
+
+.condicoes:before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  width: 100%;
+  height: 85%;
+  background-color: #F8934A;
+  content: '';
+  border-top-right-radius: 500px;
+  border-bottom-right-radius: 500px;
+}
+
+.accordion {
+  margin-top: -40px;
+  margin-bottom: -40px;
+  background-color: #00B4FE;
+  border-radius: 40px;
+  padding: 80px 50px 50px 50px;
+}
+
+.accordion-item {
+  text-align: justify;
+  background-color: #fff;
+  border-radius: 40px !important;
+  margin-bottom: 30px;
+  border: none;
+}
+
+.accordion-item .accordion-button {
+  outline: none;
+  box-shadow: none;
+  border-radius: 40px !important;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #24323C;
+  background-color: #fff;
+}
+
+h2.accordion-header button {
+  padding: 15px 25px;
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.accordion-button::after {
+  font-size: 18px;
+  font-weight: 500;
+  background-image: none;
+  content: '+';
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 50%;
+  background-color: #24323C;
+  color: #fff;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: none;
+  line-height: 32px;
+  content: '-';
+}
+
+.accordion-body {
+  padding: 0px 25px 30px 25px;
+  font-size: 14px;
+  line-height: 28px;
+  color: #4a4a4a;
+}
+
+.condicoes .section-heading {
+  margin-left: 60px;
+  margin-bottom: 0px;
+}
+
+.condicoes .section-heading .main-button {
+  margin-top: 50px;
+}
+.cabecalho-accordion{
+  color: #fff;
 }
 
 /* 
@@ -1777,6 +1986,9 @@ Contact Style
   font-weight: 400;
 }
 
+.contact-us strong{
+  color: #24323C;
+}
 
 /**/
 #formulario input {
@@ -1811,9 +2023,10 @@ Contact Style
   z-index: 3;
 }
 
-#formulario input::placeholder{
+#formulario input::placeholder {
   color: #fff;
 }
+
 #formulario select option {
   color: #4a4a4a;
 }
@@ -2012,6 +2225,12 @@ body {
     line-height: 170px;
   }
 
+  .condicoes .section-heading {
+    margin-left: 0px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+  }
+
   .about-us .section-heading {
     margin-left: 0px;
     margin-top: 120px;
@@ -2032,8 +2251,16 @@ body {
   .about-us .section-heading .main-button {
     margin-top: 30px;
   }
+  .condicoes .section-heading .main-button {
+    margin-top: 30px;
+  }
 
   .about-us .main-button a {
+    background-color: #24323C;
+    color: #fff;
+  }
+
+  .condicoes .main-button a {
     background-color: #24323C;
     color: #fff;
   }
