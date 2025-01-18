@@ -30,7 +30,7 @@
                                 Soluções em Serviços de Cloud e Desenvolvimento de Software.
                                 <br />
                                 <span style="font-size: 1.4em;">Desde o Desenvolvimeto de sites à criação de Sistemas de
-                                    gestão personalizadas</span>
+                                    gestão personalizados</span>
                             </p>
                         </div>
                     </div>

@@ -8,7 +8,7 @@
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseOne" aria-expanded="true" aria-controls
                                 controlsList="nodownload"="collapseOne">
-                                Sobre DevCode
+                                Sobre a DevCode
                             </button>
                         </h2>
                         <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"

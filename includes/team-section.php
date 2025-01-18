@@ -1,6 +1,11 @@
 <div class="team section" id="team">
     <div class="container">
         <div class="row">
+            <div class="col-lg-12 text-center" style="margin-bottom: 100px;">
+                <div class="section-heading">
+                    <h2>Conheça nossa equipe</h2>
+                </div>
+            </div>
             <div class="col-lg-3 col-md-6">
                 <div class="team-member">
                     <div class="main-content">
@@ -46,6 +51,8 @@
                                         class="zmdi zmdi-twitter"></i></a></li>
                             <li><a target="_blank" href="https://www.linkedin.com/in/felixsumburane/"><i
                                         class="zmdi zmdi-linkedin"></i></a></li>
+                            <li><a target="_blank" href="https://instagram.com/felixsumburane"><i
+                                        class="zmdi zmdi-instagram"></i></a></li>
                         </ul>
                     </div>
                 </div>

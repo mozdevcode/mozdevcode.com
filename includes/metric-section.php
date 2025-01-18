@@ -13,7 +13,7 @@
                         <div class="col-lg-3 col-md-6">
                             <div class="counter">
                                 <h2 class="timer count-title count-number" data-to="15" data-speed="1000"></h2>
-                                <p class="count-text ">Formadores</p>
+                                <p class="count-text ">Cursos</p>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6">
