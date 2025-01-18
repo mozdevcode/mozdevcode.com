@@ -118,7 +118,7 @@
             nav: true,
             margin: 30,
             autoplay: true,
-            autoplayTimeout: 3800,
+            autoplayTimeout: 10000,
             responsive: {
                 992: { items: 1 },
                 1200: { items: 1 }
@@ -212,12 +212,6 @@
         });
     }
 
-    // Função para limpar os campos do formulário
-    function initFormClear() {
-        document.getElementById('clear-form').addEventListener('click', function () {
-            document.getElementById('contact-form').reset();
-        });
-    }
 
     // Função para mostrar um alerta de sucesso
     function initFormSubmitAlert() {
