@@ -49,8 +49,10 @@
                             </li>
                             <li><a target="_blank" href="https://x.com/felixsumburane"><i
                                         class="zmdi zmdi-twitter"></i></a></li>
-                            <li><a target="_blank" href="https://www.linkedin.com/in/felixsumburane/"><i
-                                        class="zmdi zmdi-linkedin"></i></a></li>
+
+                            <li><a target="_blank" href="https://www.tiktok.com/@felixsumburane"><i
+                                        class="fab fa-tiktok"></i></a></li>
+
                             <li><a target="_blank" href="https://instagram.com/felixsumburane"><i
                                         class="zmdi zmdi-instagram"></i></a></li>
                         </ul>
@@ -60,12 +62,12 @@
             <div class="col-lg-3 col-md-6">
                 <div class="team-member">
                     <div class="main-content">
-                        <img src="assets/images/member-gen.jpg" alt="">
+                        <img src="assets/images/gildo.jpg" alt="">
                         <h4 style="margin: 0px;">Sebastião Web</h4>
                         <span class="category">CTO</span>
                         <br /><br />
                         <ul class="social-icons">
-                            <li><a href="#"><i class="zmdi zmdi-facebook"></i></a></li>
+                            <li><a href="https://www.tiktok.com/@sebastiaoweb"><i class="fab fa-tiktok"></i></a></li>
                             <li><a href="#"><i class="zmdi zmdi-twitter"></i></a></li>
                             <li><a href="#"><i class="zmdi zmdi-linkedin"></i></a></li>
                         </ul>

@@ -5,7 +5,7 @@
             <div class="col-12">
                 <nav class="main-nav">
                     <div class="logo">
-                        <img draggable="false" style="width: 10%;" src="assets/images/logo-devcode.png">
+                        <img draggable="false" style="width: 30%;" src="assets/images/logo-extensive-white-devcode.png">
                     </div>
                     <!-- ***** Pesquisa Início ***** -->
                     <div class="search-input">

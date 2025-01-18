@@ -1517,6 +1517,7 @@ Team Style
   left: 50%;
   transform: translateX(-110px);
   transition: all .3s;
+  box-shadow: 0px 0px 10px #0000003d;
 }
 
 .team-member .main-content {
