@@ -18,29 +18,20 @@
             <div class="col-lg-6">
                 <div class="contact-us-content">
                     <form id="contact-form" action="" method="post">
-                        <div class="row">
+                        <div class="row" style="text-align: center;">
                             <div class="col-lg-12">
-                                <fieldset>
-                                    <input type="text" name="name" id="name" placeholder="Seu Nome..." autocomplete="on"
-                                        required>
-                                </fieldset>
+                                <img draggable="false" style="width: 20%; margin-bottom: 7px;"
+                                    src="./assets/images/logo-devcode.png" />
+                                <h4 style="margin: 0px; color: white;">DevCode - Comunidade</h4>
+                                <span class="category" style="color: #ddd;">Nossa Comunidade no WhatsApp</span>
                             </div>
                             <div class="col-lg-12">
                                 <fieldset>
-                                    <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*"
-                                        placeholder="Seu E-mail..." required>
-                                </fieldset>
-                            </div>
-                            <div class="col-lg-12">
-                                <fieldset>
-                                    <textarea name="message" id="message" placeholder="Sua Mensagem..."></textarea>
-                                </fieldset>
-                            </div>
-                            <div class="col-lg-12">
-                                <fieldset>
-                                    <button type="submit" id="form-submit" class="orange-button"><i
-                                            class="zmdi zmdi-mail-send"></i>
-                                        Enviar</button>
+                                    <button style="margin: auto;" type="submit" id="form-submit" class="orange-button">
+                                        <a style="all: unset;" href="https://chat.whatsapp.com/Fm88rLtR95K1CCr68mIZhi">
+                                            <i class="fab fa-whatsapp"></i> Entrar no Grupo
+                                        </a>
+                                    </button>
                                 </fieldset>
                             </div>
                         </div>
