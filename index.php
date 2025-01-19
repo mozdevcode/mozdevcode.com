@@ -15,10 +15,14 @@
 
     <title>DevCode - Comunidade</title>
 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.3.1/css/all.min.css" rel="stylesheet">
+
     <!-- Arquivos CSS adicionais -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/main.css">
+
+    <link rel="stylesheet" href="./assets/css/devcode.css">
 </head>
 
 <body>
@@ -36,29 +40,25 @@
     <!-- ***** Pré-carregador Fim ***** -->
 
     <?php
-  include_once 'includes/header.php';
-  ?>
+    include_once 'includes/header.php';
+    ?>
 
     <main class="body">
 
         <?php
-    include_once 'includes/init-banner.php';
+        include_once 'includes/init-banner.php';
 
-    include_once 'includes/service-section.php';
-    include_once 'includes/about-us-section.php';
-    include_once 'includes/metric-section.php';
-    include_once 'includes/team-section.php';
-    include_once 'includes/contact-section.php';
-    ?>
+        include_once 'includes/service-section.php';
+        include_once 'includes/about-us-section.php';
+        include_once 'includes/metric-section.php';
+        include_once 'includes/team-section.php';
+        include_once 'includes/contact-section.php';
+        ?>
     </main>
 
-    <footer>
-        <div class="container">
-            <div class="col-lg-12">
-                <p>Copyright © 2024 <strong style="color: #f8934A;">DevCode</strong> All Rights Reserved</p>
-            </div>
-        </div>
-    </footer>
+    <?php
+    include_once 'includes/footer.php';
+    ?>
 
     <!-- Scripts -->
     <!-- Bootstrap core JavaScript -->
@@ -71,7 +71,7 @@
     <script src="./assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
     <script src="./assets/js/material.min.js"></script>
     <script>
-    $.material.init();
+        $.material.init();
     </script>
 
 </body>

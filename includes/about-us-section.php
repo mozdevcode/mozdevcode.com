@@ -8,17 +8,15 @@
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseOne" aria-expanded="true" aria-controls
                                 controlsList="nodownload"="collapseOne">
-                                Sobre DevCode
+                                Sobre a DevCode
                             </button>
                         </h2>
                         <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                             data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit dignissimos
-                                temporibus hic optio
-                                mollitia nobis, exercitationem earum consequuntur eum voluptatibus! Magnam
-                                accusamus voluptatum,
-                                aliquid animi velit expedita explicabo totam laudantium.
+                                Somos uma Comunidade de Programadores, Designers e técnicos na área de redes. Uma das
+                                nossas principais caracteristica é o dinamismo e o comprometimento no ensino e
+                                aprendizagem dentro das nossas comunidades virtuais
                             </div>
                         </div>
                     </div>
@@ -27,18 +25,14 @@
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseTwo" aria-expanded="false" aria-controls
                                 controlsList="nodownload"="collapseTwo">
-                                Natureza
+                                Plataforma de ensino
                             </button>
                         </h2>
                         <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                             data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus ducimus,
-                                quas eius tenetur
-                                quibusdam molestias maiores. Suscipit repudiandae illum illo eius! Fugiat quasi
-                                dolores modi
-                                repellat
-                                iste repellendus voluptatibus ullam!ar.
+                                A nossa princiapl plataforma de ensino é a DevCode Academy, onde lecionamos diversos
+                                cursos virados a programação nas mais diversas linguagens de programação.
                             </div>
                         </div>
                     </div>
@@ -46,14 +40,10 @@
             </div>
             <div class="col-lg-5 align-self-center">
                 <div class="section-heading">
-                    <h6>Seja</h6>
-                    <h2>Bem vindo</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus reprehenderit
-                        omnis impedit sed
-                        neque nemo facilis quos cum incidunt, consequatur, earum aut, ipsam officiis laboriosam
-                        obcaecati
-                        cumque.
-                        Amet, dolores consequuntur!</p>
+                    <h2>SAIBA MAIS SOBRE A</h2>
+                    <h6>DevCode - Comunidade</h6>
+                    <p>Visite e nos siga nas nossas redes sociais e fique por dentro de todas as novidades da Comunidade
+                    </p>
                 </div>
             </div>
         </div>
