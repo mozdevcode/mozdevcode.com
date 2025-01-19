@@ -11,6 +11,7 @@
 
     <!-- Definição do link canônico para evitar conteúdo duplicado -->
     <link rel="canonical" href="https://mozdevcode.com">
+    <link rel="icon" href="./assets/images/icon/favicon-32x32.png" type="image/png">
 
 
     <title>DevCode - Comunidade</title>
