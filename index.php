@@ -2,6 +2,20 @@
 <html lang="pt-pt">
 
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WZD8M47G6F"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-WZD8M47G6F');
+    </script>
+    <!-- ========================= -->
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -73,7 +87,7 @@
     <script src="./assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
     <script src="./assets/js/material.min.js"></script>
     <script>
-        $.material.init();
+    $.material.init();
     </script>
 
 </body>
