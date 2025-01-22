@@ -24,14 +24,15 @@
             <div class="col-lg-3 col-md-6">
                 <div class="team-member">
                     <div class="main-content">
-                        <img src="assets/images/member-gen.jpg" alt="">
+                        <img src="assets/images/mudaca.jpg" alt="">
                         <h4 style="margin: 0px;">Salvador Mudaca</h4>
                         <span class="category">Tech Lead</span>
                         <br /><br />
                         <ul class="social-icons">
-                            <li><a href="#"><i class="zmdi zmdi-facebook"></i></a></li>
-                            <li><a href="#"><i class="zmdi zmdi-twitter"></i></a></li>
-                            <li><a href="#"><i class="zmdi zmdi-linkedin"></i></a></li>
+                            <li><a target="_blank" href="https://www.facebook.com/smudaca"><i class="zmdi zmdi-facebook"></i></a></li>
+                            <li><a target="_blank" href="https://x.com/MudacaSalvador"><i class="zmdi zmdi-twitter"></i></a></li>
+                            <li><a target="_blank" href="https://www.instagram.com/salvadormudaca/"><i class="zmdi zmdi-instagram"></i></a></li>
+                            <li><a target="_blank" href="https://www.linkedin.com/in/salvador-mudaca-5070b8a3/"><i class="zmdi zmdi-linkedin"></i></a></li>
                         </ul>
                     </div>
                 </div>
