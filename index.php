@@ -48,6 +48,7 @@
         <?php
         include_once 'includes/init-banner.php';
 
+        include_once 'includes/next-event-section.php';
         include_once 'includes/service-section.php';
         include_once 'includes/about-us-section.php';
         include_once 'includes/metric-section.php';

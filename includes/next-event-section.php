@@ -1,0 +1,31 @@
+<div class="section about-us">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 offset-lg-1">
+                <div class="accordion" id="accordionExample">
+                    <h1 style="color: white; font-weight: normal;">Nosso próximo evento</h1>
+                    <br />
+                    <div class="accordion-item" style="padding: 20px;">
+                        <h2 style="font-size: 1.2em;" class="accordion-header" id="headingOne">
+                            Tema
+                        </h2>
+                        <small>Formas de Ganhar dinheiro com o Programação</small>
+                    </div>
+                    <div class="accordion-item" style="padding: 20px;">
+                        <h2 style="font-size: 1.2em;" class="accordion-header" id="headingOne">
+                            Descrição
+                        </h2>
+                        <small>Aprender a programar é uma das coisas que segundo Steve Jobs, deveria ser para todo
+                            mundo, mas nesse evento, veremos como podemos usar as nossas habilidades em programação para
+                            poder alcançar valores monetários</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5 align-self-center">
+                <div class="section-heading">
+                    <img src="assets/images/next-event.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
