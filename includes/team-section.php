@@ -14,9 +14,10 @@
                         <span class="category">Moderador</span>
                         <br /><br />
                         <ul class="social-icons">
-                            <li><a href="#"><i class="zmdi zmdi-facebook"></i></a></li>
-                            <li><a href="#"><i class="zmdi zmdi-twitter"></i></a></li>
-                            <li><a href="#"><i class="zmdi zmdi-linkedin"></i></a></li>
+                            <!-- <li><a href="#"><i class="zmdi zmdi-facebook"></i></a></li> -->
+                            <li><a href="https://www.tiktok.com/@days5244?_t=ZM-8tH7aCCSgxp&_r=1"><i
+                                        class="fab fa-tiktok"></i></a></li>
+                            <!-- <li><a href="#"><i class="zmdi zmdi-linkedin"></i></a></li> -->
                         </ul>
                     </div>
                 </div>
@@ -29,10 +30,14 @@
                         <span class="category">Tech Lead</span>
                         <br /><br />
                         <ul class="social-icons">
-                            <li><a target="_blank" href="https://www.facebook.com/smudaca"><i class="zmdi zmdi-facebook"></i></a></li>
-                            <li><a target="_blank" href="https://x.com/MudacaSalvador"><i class="zmdi zmdi-twitter"></i></a></li>
-                            <li><a target="_blank" href="https://www.instagram.com/salvadormudaca/"><i class="zmdi zmdi-instagram"></i></a></li>
-                            <li><a target="_blank" href="https://www.linkedin.com/in/salvador-mudaca-5070b8a3/"><i class="zmdi zmdi-linkedin"></i></a></li>
+                            <li><a target="_blank" href="https://www.facebook.com/smudaca"><i
+                                        class="zmdi zmdi-facebook"></i></a></li>
+                            <li><a target="_blank" href="https://x.com/MudacaSalvador"><i
+                                        class="zmdi zmdi-twitter"></i></a></li>
+                            <li><a target="_blank" href="https://www.instagram.com/salvadormudaca/"><i
+                                        class="zmdi zmdi-instagram"></i></a></li>
+                            <li><a target="_blank" href="https://www.linkedin.com/in/salvador-mudaca-5070b8a3/"><i
+                                        class="zmdi zmdi-linkedin"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -69,8 +74,9 @@
                         <br /><br />
                         <ul class="social-icons">
                             <li><a href="https://www.tiktok.com/@sebastiaoweb"><i class="fab fa-tiktok"></i></a></li>
-                            <li><a href="#"><i class="zmdi zmdi-twitter"></i></a></li>
-                            <li><a href="#"><i class="zmdi zmdi-linkedin"></i></a></li>
+                            <li><a href="https://www.facebook.com/gildo.sebastian"><i
+                                        class="zmdi zmdi-facebook"></i></a></li>
+                            <!-- <li><a href="#"><i class="zmdi zmdi-linkedin"></i></a></li> -->
                         </ul>
                     </div>
                 </div>
