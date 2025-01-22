@@ -9,7 +9,7 @@
             <div class="col-lg-3 col-md-6">
                 <div class="team-member">
                     <div class="main-content">
-                        <img src="assets/images/member-gen.jpg" alt="">
+                        <img src="assets/images/dercio.jpg" alt="">
                         <h4 style="margin: 0px;">Dercio Matsimbe</h4>
                         <span class="category">Moderador</span>
                         <br /><br />
