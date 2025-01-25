@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-lg-6 offset-lg-1">
                 <div class="accordion" id="accordionExample">
-                    <h1 style="color: white; font-weight: normal;">Nosso próximo evento</h1>
+                    <h1 style="color: white; font-weight: normal;">Último evento realizado</h1>
                     <br />
                     <div class="accordion-item" style="padding: 20px;">
                         <h2 style="font-size: 1.2em;" class="accordion-header" id="headingOne">
@@ -18,6 +18,16 @@
                         <small>Aprender a programar é uma das coisas que segundo Steve Jobs, deveria ser para todo
                             mundo, mas nesse evento, veremos como podemos usar as nossas habilidades em programação para
                             poder alcançar valores monetários</small>
+                    </div>
+                    <div class="accordion-item" style="padding: 20px;">
+                        <h2 style="font-size: 1.2em;" class="accordion-header" id="headingOne">
+                            Recuros & Registros do Evento
+                        </h2>
+                        <small><strong style="color: black;">Apresentação em PDF do evento</strong>, pode baixar a
+                            apresentação usada nesse
+                            evento. <a
+                                href="./files/SLIDE_FORMAS_DE_GANHAR_DINHEIRO_COM_PROGRAMACAO_DEVCODE_EVENT.pdf">Baixar
+                                apresentação</a></small>
                     </div>
                 </div>
             </div>
