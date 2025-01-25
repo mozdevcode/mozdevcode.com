@@ -21,11 +21,11 @@
                     </div>
                     <div class="accordion-item" style="padding: 20px;">
                         <h2 style="font-size: 1.2em;" class="accordion-header" id="headingOne">
-                            Recuros & Registros do Evento
+                            Recursos & Registros do Evento
                         </h2>
                         <small><strong style="color: black;">Apresentação em PDF do evento</strong>, pode baixar a
                             apresentação usada nesse
-                            evento. <a
+                            evento. <a download="true"
                                 href="./files/SLIDE_FORMAS_DE_GANHAR_DINHEIRO_COM_PROGRAMACAO_DEVCODE_EVENT.pdf">Baixar
                                 apresentação</a></small>
                     </div>
