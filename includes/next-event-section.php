@@ -33,8 +33,12 @@
                         <h2 style="font-size: 1.2em;" class="accordion-header" id="headingOne">
                             Trechos do evento no Youtube da Comunidade
                         </h2>
-                        <a target="_blank" href="https://youtu.be/EnM4qnyJxQw">1- Dicas para ganhar dinheiro como
-                            Dev</a>
+                        <a style="margin-left: 10px;" target="_blank" href="https://youtu.be/EnM4qnyJxQw">1- Dicas para
+                            ganhar dinheiro como
+                            Dev</a><br />
+                        <a style="margin-left: 10px;" target="_blank" href="https://youtu.be/j3V5asfTwuY">2- Debate
+                            sobre as Linguagens de
+                            Programação</a>
                         </small>
                     </div>
                 </div>
