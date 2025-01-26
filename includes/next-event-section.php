@@ -28,6 +28,14 @@
                             evento. <a download
                                 href="./files/SLIDE_FORMAS_DE_GANHAR_DINHEIRO_COM_PROGRAMACAO_DEVCODE_EVENT.pdf">Baixar
                                 apresentação</a></small>
+
+                        <br /><br />
+                        <h2 style="font-size: 1.2em;" class="accordion-header" id="headingOne">
+                            Trechos do evento no Youtube da Comunidade
+                        </h2>
+                        <a target="_blank" href="https://youtu.be/EnM4qnyJxQw">1- Dicas para ganhar dinheiro como
+                            Dev</a>
+                        </small>
                     </div>
                 </div>
             </div>
