@@ -9,7 +9,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="service-item">
                     <div class="icon">
-                        <i style="font-size: 2em;" class="fas fa-book-open"></i>
+                        <i style="font-size: 3em;" class="fas fa-book-open"></i>
                     </div>
                     <div class="main-content">
                         <h4>Cursos</h4>
@@ -26,7 +26,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="service-item">
                     <div class="icon">
-                        <i style="font-size: 2em;" class="fas fa-code"></i>
+                        <i style="font-size: 3em;" class="fas fa-code"></i>
                     </div>
                     <div class="main-content">
                         <h4>Desenvolvimento</h4>
@@ -43,7 +43,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="service-item">
                     <div class="icon">
-                        <i style="font-size: 2em;" class="fas fa-cloud"></i>
+                        <i style="font-size: 3em;" class="fas fa-cloud"></i>
                     </div>
                     <div class="main-content">
                         <h4>Soluções de Cloud</h4>

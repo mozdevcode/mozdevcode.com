@@ -10,7 +10,13 @@
                     </p>
                     <p style="display: flex; align-items: center; gap: 7px; margin-top: 0px;"><i
                             style="font-size: 1.2em;" class="fab fa-youtube"></i><span
-                            style="transform: translateY(-1px);">@mozdevcode</span>
+                            style="transform: translateY(-1px);"><a target="_blank" style="all: unset; cursor: pointer;"
+                                href="https://www.youtube.com/@mozdevcode">@mozdevcode</a></span>
+                    </p>
+                    <p style="display: flex; align-items: center; gap: 7px; margin-top: 0px;"><i
+                            style="font-size: 1.2em;" class="fab fa-discord"></i><span
+                            style="transform: translateY(-1px);"><a target="_blank" style="all: unset; cursor: pointer;"
+                                href="https://discord.gg/eCps3T7q">DevCode no Discord</a></span>
                     </p>
 
                 </div>

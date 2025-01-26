@@ -18,7 +18,7 @@
                             <h2>Cursos de Tecnologia</h2>
                             <p>
                                 Cursos gratuitos & pagos nas mais diversas linguagens de programação<br />
-                                <span style="font-size: 1.4em;">Desde o iniciate ao avançado</span>
+                                <span style="font-size: 1.4em;">Desde o iniciante ao avançado</span>
                             </p>
                         </div>
                     </div>
