@@ -40,8 +40,8 @@
             </div>
             <div class="col-lg-5 align-self-center">
                 <div class="section-heading">
-                    <h2>SAIBA MAIS SOBRE A</h2>
-                    <h6>DevCode - Comunidade</h6>
+                    <h2 style="text-align: left; font-size: 1.5em;">SAIBA MAIS SOBRE A</h2>
+                    <h6 style="font-size: 1.3em; text-align: left;">DevCode - Comunidade</h6>
                     <p>Visite e nos siga nas nossas redes sociais e fique por dentro de todas as novidades da Comunidade
                     </p>
                 </div>

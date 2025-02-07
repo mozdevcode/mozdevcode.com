@@ -6,7 +6,7 @@
                     <div class="item item-1">
                         <div class="header-text">
                             <span class="category">bem-vindo</span>
-                            <h2>Seja Bem-Vindo(a) à DevCode</h2>
+                            <h2 style="font-size: 2em;">Seja Bem-Vindo(a) à DevCode</h2>
                             <p>
                                 A comunidade com o melhor centro de aprendizagem a nivel nacional
                             </p>
@@ -15,7 +15,7 @@
                     <div class="item item-2">
                         <div class="header-text">
                             <span class="category">ensino</span>
-                            <h2>Cursos de Tecnologia</h2>
+                            <h2 style="font-size: 2em;">Cursos de Tecnologia</h2>
                             <p>
                                 Cursos gratuitos & pagos nas mais diversas linguagens de programação<br />
                                 <span style="font-size: 1.4em;">Desde o iniciante ao avançado</span>
@@ -25,7 +25,7 @@
                     <div class="item item-3">
                         <div class="header-text">
                             <span class="category">solucoes</span>
-                            <h2>Soluções & Serviços</h2>
+                            <h2 style="font-size: 2em;">Soluções & Serviços</h2>
                             <p>
                                 Soluções em Serviços de Cloud e Desenvolvimento de Software.
                                 <br />

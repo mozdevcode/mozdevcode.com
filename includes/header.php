@@ -8,13 +8,13 @@
                         <img draggable="false" style="width: 30%;" src="assets/images/logo-extensive-white-devcode.png">
                     </div>
                     <!-- ***** Pesquisa Início ***** -->
-                    <div class="search-input">
+                    <!-- <div class="search-input">
                         <form id="search" action="#">
                             <input type="text" placeholder="Pesquisar" id='searchText' name="searchKeyword"
                                 onkeypress="handle" />
                             <i class="fa fa-search"></i>
                         </form>
-                    </div>
+                    </div> -->
                     <!-- ***** Pesquisa Fim ***** -->
                     <!-- ***** Menu Início ***** -->
                     <ul class="nav">
