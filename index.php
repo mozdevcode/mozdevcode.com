@@ -5,14 +5,14 @@
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-WZD8M47G6F"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
+        window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
 
-    gtag('config', 'G-WZD8M47G6F');
+        gtag('config', 'G-WZD8M47G6F');
     </script>
     <!-- ========================= -->
 
@@ -66,6 +66,7 @@
         include_once 'includes/next-event-section.php';
         include_once 'includes/service-section.php';
         include_once 'includes/about-us-section.php';
+        include_once 'includes/last-event-section.php';
         include_once 'includes/metric-section.php';
         include_once 'includes/team-section.php';
         include_once 'includes/contact-section.php';
@@ -87,7 +88,7 @@
     <script src="./assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
     <script src="./assets/js/material.min.js"></script>
     <script>
-    $.material.init();
+        $.material.init();
     </script>
 
 </body>
