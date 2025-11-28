@@ -3,8 +3,6 @@
         <div class="row">
             <div class="col-lg-6 offset-lg-1">
                 <div class="accordion" id="accordionExample">
-                    <h1 style="color: white; font-weight: normal; text-align: left;">Último evento realizado</h1>
-                    <br />
                     <div class="accordion-item" style="padding: 20px;">
                         <h2 style="font-size: 1.2em;" class="accordion-header" id="headingOne">
                             Tema
