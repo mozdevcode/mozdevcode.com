@@ -47,7 +47,7 @@
                     <div class="main-content">
                         <img draggable="false" src="assets/images/sumburane.jpg" alt="">
                         <h4 style="margin: 0px;">Félix Sumburane</h4>
-                        <span class="category">Presidente</span>
+                        <span class="category">Tech Lead</span>
                         <br /><br />
                         <ul class="social-icons">
                             <li><a target="_blank" href="https://facebook.com/felixsumburane7"><i
@@ -70,7 +70,7 @@
                     <div class="main-content">
                         <img src="assets/images/gildo.jpg" alt="">
                         <h4 style="margin: 0px;">Sebastião Web</h4>
-                        <span class="category">CTO</span>
+                        <span class="category">Moderador</span>
                         <br /><br />
                         <ul class="social-icons">
                             <li><a href="https://www.tiktok.com/@sebastiaoweb"><i class="fab fa-tiktok"></i></a></li>

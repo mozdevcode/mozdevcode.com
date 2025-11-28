@@ -34,7 +34,8 @@
                             <div class="col-lg-12">
                                 <fieldset>
                                     <button style="margin: auto;" type="submit" id="form-submit" class="orange-button">
-                                        <a style="all: unset;" href="https://chat.whatsapp.com/Fm88rLtR95K1CCr68mIZhi">
+                                        <a style="all: unset;"
+                                            href="https://chat.whatsapp.com/EfZaqvNBoSGBKtwXh61wyK?mode=hqrc">
                                             <i class="fab fa-whatsapp"></i> Entrar no Grupo
                                         </a>
                                     </button>
